@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5E6D9;
+    color: #779BD0;
+}
+.logo {
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+.logo span {
+    color: #4B6387;
+    font-weight: 700;
+}
+.nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #779BD0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.nav ul li a:hover {
+    border-bottom: #779BD0;
+}
+.btn {
+    background-color: #779BD0;
+    color: #F5E6D9;
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #8cafee;
+    color: #4B6387;
+    border: 2px solid #779BD0;
+}
+.barra_pesquisa{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+.box-input::placeholder {
+    color:#ffffff;
+    opacity: 0.6;
+}
+.box-input:-ms-input-placeholder {
+    color: #ffffff; 
+}
+.box-input form {
+    display: flex;
+    border-radius: 50px;
+    background-color: #4c4c4c;
+    height: 45px;
+}
+.search-box:hover .box-input {
+    padding-left: 2em;
+    padding-right: 1em;
+    width: 250px;
+}
+.box-input{
+    outline: 0;
+    font-size: 1.2em;
+    color: #546d85;
+    width: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    transition: .45s;
+}
+.box-button{
+    display: flex;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: #d6aebf;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.box-button:active {
+    transform: scale(.85);
+}
+.icone icon {
+    margin: auto;
+    color: #fff;
+}
+.cotainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card {
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: #4B6387;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.cafe {
+    justify-content: center;
+    display: flex;   
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.card01 {
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: #4B6387;
+    text-align: center;
+}
+.Bolo-de-morango {
+    justify-content: center;
+    display: flex;   
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.card02 {
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: #4B6387;
+    text-align: center;
+}
+.Capuccino {
+    justify-content: center;
+    display: flex;   
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.card03 {
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: #4B6387;
+    text-align: center;
+}
+.Cheesecake-Blueberry {
+    justify-content: center;
+    display: flex;   
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}

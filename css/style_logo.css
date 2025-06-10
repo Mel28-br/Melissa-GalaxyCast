@@ -1,0 +1,63 @@
+.login{
+    background-color: #779BD0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #F5E6D9;
+}
+.Home{
+    text-decoration: none;
+    color: #779BD0;
+}
+.tex{
+    padding: 8px;
+    border: 2px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 15px;
+}
+.pass{
+    padding: 8px;
+    border: 2px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 15px;
+}
+.bot{
+    background-color: #4B6387;
+    color: #F5E6D9;
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.bot:hover {
+    background-color: #69acca;
+    color: #4B6387;
+    border: 2px solid #91b2e4;
+}
+.btn_cadastro {
+    margin-bottom: 20px;
+    background-color: #2a4874;
+    color: #F5E6D9;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.p {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #F5E6D9;
+}
+.btn_cadastro:hover {
+    background-color: #79aaf5;
+    color: #5e6f87;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="Cat.png" type="iimg/Cat.png ">
+  <title>GalaxyCats</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+    --color-bg: #ffffff;
+    --color-text: #5f7ba7;
+      --color-text-muted: #495b67;
+      --color-primary: #111827;
+      --color-border: #6d95e5;
+      --color-hover-bg: #f9fafb;
+      --radius: 0.75rem;
+      --shadow: 0 4px 6px rgba(0,0,0,0.05);
+      --font-family: 'Poppins', sans-serif;
+      --spacing-vertical: 2rem;
+      --spacing-horizontal: 1.5rem;
+    }
+    /* Reset and base */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: var(--font-family);
+      background-color: var(--color-bg);
+      color: var(--color-text-muted);
+      font-size: 16px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      margin-bottom: 0.5rem;
+    }
+    p.subtitle {
+      font-size: 1.125rem;
+      margin-top: 0;
+      margin-bottom: 3rem;
+      color: var(--color-text-muted);
+      max-width: 600px;
+    }
+    .container {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 var(--spacing-horizontal);
+      padding-top: var(--spacing-vertical);
+      padding-bottom: var(--spacing-vertical);
+    }
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: var(--color-bg);
+    }
+    thead tr {
+      background-color: #dfd6b8;
+    }
+    th, td {
+      padding: 1.25rem 1.5rem;
+      text-align: left;
+      border-bottom: 1px solid var(--color-border);
+      font-weight: 500;
+      color: var(--color-primary);
+      font-size: 1rem;
+    }
+    tbody tr {
+      transition: background-color 0.3s ease;
+      cursor: default;
+    }
+    tbody tr:hover {
+      background-color: var(--color-hover-bg);
+    }
+    tbody td {
+      font-weight: 400;
+      color: var(--color-text-muted);
+    }
+    /* Responsive Typography */
+    @media (min-width: 640px) {
+      body {
+        font-size: 17px;
+      }
+      th, td {
+        font-size: 1.125rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="main">
+    <h1>GalaxyCats</h1>
+    <p class="subtitle">Uma visão elegante e clara dos produtos disponíveis.</p>
+    <table aria-label="Tabela de produtos">
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Categoria</th>
+          <th>Preço (R$)</th>
+          <th>Estoque</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Café</td>
+          <td>Bebidas</td>
+          <td>9,90</td>
+          <td>12</td>
+          <td>Disponível</td>
+        </tr>
+        <tr>
+          <td>Bolo de Morango</td>
+          <td>Comidas</td>
+          <td>14,90</td>
+          <td>14</td>
+          <td>Disponível</td>
+        </tr>
+        <tr>
+          <td>Capuccino</td>
+          <td>Bebidas</td>
+          <td>11,90</td>
+          <td>16</td>
+          <td>Disponível</td>
+        </tr>
+        <tr>
+          <td>Bolo Blueberry</td>
+          <td>Comidas</td>
+          <td>17,00</td>
+          <td>13</td>
+          <td>Limitado</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

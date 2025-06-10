@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style_home.css">
+    <link rel="stylesheet" href="../css/style_user.css">
+    <link rel="shortcut icon" href="Cat.png" type="img/Cat.png ">
+    <title>GalaxyCats</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="logo">
+            <a class="Home" href="../index.html">Galaxy <span>Cats</span></a>
+        </h2>
+        <div class="nav">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+        <a href="#" class="btn">sign in</a>
+</body>
+        <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+    :root {
+    --card-bg: #ffffff;
+    --text-color: #374151;
+    --text-muted: #6b7280;
+    --primary-color: #111827;
+    --input-border: #d1d5db;
+    --input-focus-border: #3b82f6;
+    --shadow: rgba(0, 0, 0, 0.05);
+    --radius: 0.75rem;
+    --spacing: 1rem;
+    }
+
+    /* Reset & base */
+    *, *::before, *::after {
+    box-sizing: border-box;
+}
+    .card {
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    box-shadow: 0 10px 15px var(--shadow);
+    padding: calc(var(--spacing) * 2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    }
+
+    h1 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: calc(var(--spacing) * 1.5);
+    color: var(--primary-color);
+    }
+
+    form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+    }
+
+    label {
+    text-align: left;
+    font-weight: 600;
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid var(--input-border);
+    border-radius: var(--radius);
+    transition: border-color 0.3s ease;
+    font-family: inherit;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="password"]:focus {
+      outline: none;
+      border-color: var(--input-focus-border);
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+    }
+
+    button {
+      margin-top: var(--spacing);
+      padding: 0.75rem;
+      font-size: 1.125rem;
+      font-weight: 700;
+      background: var(--primary-color);
+      color: white;
+      border: none;
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    button:hover,
+    button:focus {
+    background-color: #2563eb;
+    transform: scale(1.03);
+    outline: none;
+    }
+</style>
+</head>
+<body>
+    <div class="card" role="region" aria-label="Formulário de cadastro">
+    <h1>Cadastro</h1>
+    <form>
+        <label for="name">Nome completo</label>
+        <input type="text" id="name" name="name" placeholder="Seu nome" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password" placeholder="Senha segura" required />
+
+        <button type="submit">Cadastrar</button>
+    </form>
+    </div>
+</body>
+</html>
